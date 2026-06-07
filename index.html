@@ -154,6 +154,17 @@
     align-items: stretch;
   }
 
+  /* ── MOBILE: tumpuk input di atas, tombol di bawah ── */
+  @media (max-width: 480px) {
+    .userid-input-wrap {
+      flex-direction: column;
+    }
+    .btn-confirm {
+      width: 100%;
+      padding: 13px 18px;
+    }
+  }
+
   .userid-input {
     flex: 1;
     padding: 12px 16px;
